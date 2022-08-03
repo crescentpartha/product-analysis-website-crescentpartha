@@ -1,6 +1,7 @@
 import React from 'react';
 import Linechart from '../Linechart/Linechart';
 import Areachart from '../Areachart/Areachart';
+import Barchart from '../Barchart/Barchart';
 
 const Dashboard = () => {
     return (
@@ -12,6 +13,9 @@ const Dashboard = () => {
                 </div>
                 <div>
                     <Areachart></Areachart>
+                </div>
+                <div>
+                    <Barchart></Barchart>
                 </div>
             </div>
         </div>
