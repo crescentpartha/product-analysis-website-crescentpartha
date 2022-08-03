@@ -4,6 +4,7 @@ import Areachart from '../Areachart/Areachart';
 import Barchart from '../Barchart/Barchart';
 import Piechart from '../Piechart/Piechart';
 import Composedchart from '../Composedchart/Composedchart';
+import Scatterchart from '../Scatterchart/Scatterchart';
 
 const Dashboard = () => {
     return (
@@ -24,6 +25,9 @@ const Dashboard = () => {
                 </div>
                 <div>
                     <Composedchart></Composedchart>
+                </div>
+                <div>
+                    <Scatterchart></Scatterchart>
                 </div>
             </div>
         </div>

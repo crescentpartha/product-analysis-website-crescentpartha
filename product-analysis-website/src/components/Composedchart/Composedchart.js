@@ -1,6 +1,6 @@
 import React from 'react';
 import useData from '../../hooks/useData';
-import { ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { ComposedChart, Line, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const Composedchart = () => {
     const [data] = useData();
