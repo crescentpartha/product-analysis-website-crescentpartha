@@ -16,7 +16,7 @@
 ⫸ `Tasks Checklist:`
 - [x] ___Header___ or ___Navigation___ contains (HOME, REVIEWS, DASHBOARD, BLOGS, ABOUT, NOT FOUND)
 - [x] Use ___Vanilla CSS___ or ___Tailwind-React___ or ___React-Bootstrap___ or other ___CSS Framework___
-- [x] ___Customer Reviews___ (3) with ___See All Reviews___ button, if you clicked, then it take you to another route called ___Reviews___.
+- [x] ___Customer Reviews (3)___ with ___See All Reviews___ button, if you clicked, then it take you to another route called ___Reviews___.
 - [x] Create Review Related Data like ___name___, ___description___, ___rating___, ___image___, ___date___
 - [x] ___Meaningful commit___, minimum ___six___ commit should be required
 - [x] ___404___ or ___Not Found___ Route
@@ -45,7 +45,7 @@
 - [x] ___Meaningful___ components and variable ___names___
 - [x] ___Custom Hook___ for Home-Reviews & Review route
   - ___Home-Reviews___ route shows __3__ reviews
-  - ___Reviews___ route shows all reviews (__6__)
+  - ___Reviews___ route shows all reviews (__12__)
 - [x] Answer the ___three (3) questions___ in the blogs route (at least 2)
   - What is ___Context API___? What is the ___purpose___ of Context API?
   - What is ___Semantic Tag___?

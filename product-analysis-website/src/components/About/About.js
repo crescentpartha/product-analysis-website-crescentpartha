@@ -6,7 +6,7 @@ import about4 from '../../images/about-4.jpg';
 
 const About = () => {
     return (
-        <div>
+        <div className='mt-20'>
             <div className='grid grid-flow-row lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-5 items-center justify-around'>
                 <div className='text-justify px-10'>
                     <h2 className='font-semibold text-xl lg:text-4xl md:text-3xl sm:tex-2xl mb-2'>About Majestry Guitar Product</h2>
@@ -43,7 +43,7 @@ const About = () => {
                     <p>As a platform, we continue to develop services to help businesses do more and discover new opportunities. <br></br> Whether it's sourcing from your mobile phone or contacting suppliers in their local language, turn to Majestry Guitar for all your global business needs.</p>
                 </div>
             </div>
-            <div className='grid grid-flow-row gap-5 grid-cols-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 p-10  justify-around text-left text-sm'>
+            <div className='grid grid-flow-row gap-5 grid-cols-2 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 p-10 mt-10 justify-around text-left text-sm'>
                 <div>
                     <h2 className='font-semibold text-xl'>Customer Services</h2>
                     <p>Help Center</p>

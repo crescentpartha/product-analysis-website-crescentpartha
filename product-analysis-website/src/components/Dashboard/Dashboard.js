@@ -8,7 +8,7 @@ import Scatterchart from '../Scatterchart/Scatterchart';
 
 const Dashboard = () => {
     return (
-        <div>
+        <div className='mt-20'>
             <h2 className='text-2xl font-semibold my-10'>Dashboard is the collection of all Charts</h2>
             <div className='grid gap-5 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-10 items-center justify-around'>
                 <div className='my-5'>
