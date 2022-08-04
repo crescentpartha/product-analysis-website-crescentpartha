@@ -4,7 +4,7 @@ const Blogs = () => {
     return (
         <div>
             <h2 className='text-2xl font-semibold my-10'>Welcome to my Blogs</h2>
-            <div className='shadow-2xl m-10 p-10 rounded-lg'>
+            <div className='shadow-xl m-10 p-10 rounded-lg'>
                 <div className='text-justify shadow-lg p-5 rounded-lg'>
                     <h2 className='font-semibold text-rose-500 text-lg'>⫸ What is Context API? What is the purpose of Context API?</h2>
                     <p className='text-md '><span className='text-rose-600'>Answer: </span>The Context API is a React structure that enables you to exchange unique details and assists in <span className='font-medium'>solving prop-drilling</span> from all levels of your application.</p>

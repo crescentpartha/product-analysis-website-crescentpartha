@@ -9,7 +9,7 @@ const About = () => {
         <div>
             <div className='grid grid-flow-row lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-5 items-center justify-around'>
                 <div className='text-justify px-10'>
-                    <h2 className='font-semibold text-3xl mb-2'>About Majestry Guitar Product</h2>
+                    <h2 className='font-semibold text-xl lg:text-4xl md:text-3xl sm:tex-2xl mb-2'>About Majestry Guitar Product</h2>
                     <p>Launched in 2005, It is the leading platform for global wholesale trade. We serve millions of buyers and suppliers around the world.</p>
                 </div>
                 <div className='p-20'>
@@ -21,13 +21,13 @@ const About = () => {
                     <img className='w-full rounded-lg' src={about2} alt="About Our Mission" />
                 </div>
                 <div className='text-justify px-10'>
-                    <h2 className='font-semibold text-3xl mb-2'>Our Mission</h2>
+                    <h2 className='font-semibold text-xl lg:text-4xl md:text-3xl sm:tex-2xl mb-2'>Our Mission</h2>
                     <p>As part of the Majestry Guitar, our mission is to make it easy to do business anywhere. <br></br> We do this by giving suppliers the tools necessary to reach a global audience for their products, and by helping buyers find products and suppliers quickly and efficiently.</p>
                 </div>
             </div>
             <div className='grid grid-flow-row lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-5 items-center justify-around '>
                 <div className='text-justify px-10'>
-                    <h2 className='font-semibold text-3xl mb-2'>One-Stop Sourcing</h2>
+                    <h2 className='font-semibold text-xl lg:text-4xl md:text-3xl sm:tex-2xl mb-2'>One-Stop Sourcing</h2>
                     <p>Majestry Guitar brings you hundreds of millions of products in over 40 different major categories, including consumer electric guitar, acoustic guitar and apparel. <br></br> Buyers for these products are located in 190+ countries and regions, and exchange hundreds of thousands of messages with suppliers on the platform each day.</p>
                 </div>
                 <div className='p-20'>
@@ -39,7 +39,7 @@ const About = () => {
                     <img className='w-full rounded-lg' src={about4} alt="Anytime in Anywhere" />
                 </div>
                 <div className='text-justify px-10'>
-                    <h2 className='font-semibold text-3xl mb-2'>Anytime in Anywhere</h2>
+                    <h2 className='font-semibold text-xl lg:text-4xl md:text-3xl sm:tex-2xl mb-2'>Anytime in Anywhere</h2>
                     <p>As a platform, we continue to develop services to help businesses do more and discover new opportunities. <br></br> Whether it's sourcing from your mobile phone or contacting suppliers in their local language, turn to Majestry Guitar for all your global business needs.</p>
                 </div>
             </div>

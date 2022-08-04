@@ -21,14 +21,14 @@ const Piechart = () => {
     };
     return (
         <div>
-            <PieChart width={360} height={320}>
+            <PieChart width={260} height={220}>
                 <Pie
                     data={data}
                     cx="50%"
                     cy="50%"
                     labelLine={false}
                     label={renderCustomizedLabel}
-                    outerRadius={150}
+                    outerRadius={100}
                     fill="#8884d8"
                     dataKey="revenue"
                 >

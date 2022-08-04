@@ -7,8 +7,8 @@ const Barchart = () => {
     return (
         <div>
             <BarChart
-                width={630}
-                height={320}
+                width={530}
+                height={220}
                 data={data}
                 margin={{
                     top: 20,

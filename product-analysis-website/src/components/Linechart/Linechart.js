@@ -6,9 +6,9 @@ const Linechart = () => {
     const [data] = useData();
     return (
         <div>
-            <LineChart 
-                width={630} 
-                height={350} 
+            <LineChart
+                width={530} 
+                height={250} 
                 data={data}
                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     

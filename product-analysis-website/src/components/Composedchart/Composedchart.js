@@ -9,7 +9,7 @@ const Composedchart = () => {
             <ComposedChart
                 layout="vertical"
                 width={500}
-                height={400}
+                height={350}
                 data={data}
                 margin={{
                     top: 20,

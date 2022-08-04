@@ -7,8 +7,8 @@ const Scatterchart = () => {
     return (
         <div>
             <ScatterChart
-                width={630}
-                height={400}
+                width={530}
+                height={300}
                 margin={{
                     top: 20,
                     right: 20,
