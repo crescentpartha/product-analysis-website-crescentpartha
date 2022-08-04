@@ -11,22 +11,22 @@ const Dashboard = () => {
         <div>
             <h2 className='text-2xl font-semibold my-10'>Dashboard is the collection of all Charts</h2>
             <div className='grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mx-5'>
-                <div>
+                <div className='my-5'>
                     <Linechart></Linechart>
                 </div>
-                <div>
+                <div className='my-5'>
                     <Areachart></Areachart>
                 </div>
-                <div>
+                <div className='my-5'>
                     <Barchart></Barchart>
                 </div>
-                <div>
+                <div className='my-5'>
                     <Piechart></Piechart>
                 </div>
-                <div>
+                <div className='my-5'>
                     <Composedchart></Composedchart>
                 </div>
-                <div>
+                <div className='my-5'>
                     <Scatterchart></Scatterchart>
                 </div>
             </div>

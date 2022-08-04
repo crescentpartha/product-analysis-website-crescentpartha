@@ -30,7 +30,9 @@ const CustomerReviews = () => {
                     ></CustomerReview>)
                 }
             </div>
-            <Link className='mt-4 bg-red-300 px-8 py-1 rounded text-blue-500 text-md font-semibold hover:bg-orange-500 hover:text-white' to='/reviews'>See All Reviews</Link>
+            <div className='my-5'>
+                <Link className='my-5 bg-red-300 px-8 py-1 rounded text-blue-500 text-md font-semibold hover:bg-orange-500 hover:text-white' to='/reviews'>See All Reviews</Link>
+            </div>
         </div>
     );
 };
