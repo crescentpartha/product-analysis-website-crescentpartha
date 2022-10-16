@@ -1,19 +1,35 @@
+Table of Contents
+---
+
+- [product-analysis-website-crescentpartha](#product-analysis-website-crescentpartha)
+  - [Product Analysis Website](#product-analysis-website)
+    - [`Project Descriptions:`](#project-descriptions)
+    - [`Tasks Checklist:`](#tasks-checklist)
+    - [`Optional tasks checklist:`](#optional-tasks-checklist)
+    - [`Bonus tasks checklist:`](#bonus-tasks-checklist)
+    - [`Some Conditions:`](#some-conditions)
+  - [Special Notes](#special-notes)
+  - [Inefficient Regular Expression Complexity in nth-check (`Fix vulnerabilities`)](#inefficient-regular-expression-complexity-in-nth-check-fix-vulnerabilities)
+    - [`Solutions`](#solutions)
+
 # product-analysis-website-crescentpartha
 
 ## Product Analysis Website
 
 > [Repository Link](https://github.com/programming-hero-web-course-4/product-analysis-website-crescentpartha "Product Analysis Website - Assignment 09 | Client-Side Code") <br> [Live-Website Link](https://product-analysis-website-crescentpartha.netlify.app/ "Product Analysis Website - Assignment 09 | Live-Website")
 
+**[🔼Back to Top](#table-of-contents)**
 
-⫸ `Project Descriptions:`
+### `Project Descriptions:`
 - This is a ___Product Review website___.
 - Customers ___Reviews___ are given.
 - Display analytical information about ___Investment Vs Revenue___ according to ___charts___ in dashboard.
 - Blogs contains some ___modern web development technology___ related posts.
 - Meaningful ___documentations___ of this project.
 
+**[🔼Back to Top](#table-of-contents)**
 
-⫸ `Tasks Checklist:`
+### `Tasks Checklist:`
 - [x] ___Header___ or ___Navigation___ contains (HOME, REVIEWS, DASHBOARD, BLOGS, ABOUT, NOT FOUND)
 - [x] Use ___Vanilla CSS___ or ___Tailwind-React___ or ___React-Bootstrap___ or other ___CSS Framework___
 - [x] ___Customer Reviews (3)___ with ___See All Reviews___ button, if you clicked, then it take you to another route called ___Reviews___.
@@ -25,8 +41,9 @@
 - [x] Chart data could be found in ___data.json___, it is modifiable.
 - [x] Give the meaningful ___title name___ and change the ___favicon___.
 
+**[🔼Back to Top](#table-of-contents)**
 
-⫸ `Optional tasks checklist:`
+### `Optional tasks checklist:`
 - [x] ___Live demo___ button 
 - [x] Header or Navigation ___style___ is optional, functionality is mandatory.
 - [x] ___favicon___
@@ -35,8 +52,9 @@
 - [x] ___Conditional Rendering___
 - [x] Create ___more route___ as your wish
 
+**[🔼Back to Top](#table-of-contents)**
 
-⫸ `Bonus tasks checklist:`
+### `Bonus tasks checklist:`
 - [x] ___Modify README.md___ file 
   - Project-Name
   - Live-Website Link
@@ -51,11 +69,13 @@
   - What is ___Semantic Tag___?
   - Difference among ___inline, block, inline-block___ elements?
 
+**[🔼Back to Top](#table-of-contents)**
 
-⫸ `Some Conditions:`
+### `Some Conditions:`
 - Product Review Website ___except Phone___
 - Use ___meaningful text___ rather than ___Lorem Ipsum___
 
+**[🔼Back to Top](#table-of-contents)**
 
 ---
 
@@ -98,3 +118,42 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 Please note, you will see an warning while using react rating <br> 
 `react-dom.development.js:86 Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.`
 
+**[🔼Back to Top](#table-of-contents)**
+
+## Inefficient Regular Expression Complexity in nth-check (`Fix vulnerabilities`)
+
+- [Help, npm audit says I have a vulnerability in react-scripts!](https://github.com/facebook/create-react-app/issues/11174 "facebook/create-react-app - github")
+- [github Dependabot alert: Inefficient Regular Expression Complexity in nth-check](https://stackoverflow.com/questions/71282206/github-dependabot-alert-inefficient-regular-expression-complexity-in-nth-check "stackoverflow.com")
+
+**[🔼Back to Top](#table-of-contents)**
+
+### `Solutions`
+
+`npm audit` says there's a warning about ___vulnerabilities___ in my project
+Open `package.json`. You will find this:
+
+``` JSON
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  }
+```
+
+Take `react-scripts` and move it to `devDependencies` (if you **don't have** it, **create it**):
+
+``` JSON
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+```
+
+Then, ensure you run `npm audit --production` rather than `npm audit`.
+
+This will fix your warnings.
+
+**[🔼Back to Top](#table-of-contents)**
